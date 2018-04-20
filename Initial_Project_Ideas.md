@@ -53,7 +53,6 @@ The boundary conditions for this project include; the size and shape of the tabl
 
 ## Outline
 - The first objective to be complete is to obtain the plots and results given in Giordano's book for the phase-space plot and the divergence plot. Once these are obtained we will then test how changing the length of the stadium table and initial conditions of the ball effect its trajectory. 
-
 Once data has been collected for the different stadium tables, we will then create functions for different tables that allows us to move between table shape and size. We will then test the ball's trajectory and how it is effected by the different table shapes and size. For each specific table, multiple tests will also be ran for different initial conditions.
 
 - The outputs that are expected consist of two main plots. For every table we will output phase-space plots to help understand the trajectory of the ball as it is effected by different tables. We expect to have multiple plots for different initial conditions of each table as well. The next plot expected is the divergence plots of the trajectory. With this we will be able to observe how the Lyapunov exponent is changed by different lengths for the sides of stadium tables, along with different shaped tables.
