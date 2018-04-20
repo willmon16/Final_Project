@@ -24,32 +24,26 @@ There are three sets of controlling equations. The first is the equations to des
 
 $\frac{dx}{dt} = v_{x}$ 
 
-$$
-\frac{dy}{dt} = v_{y}
-$$
+
+$\frac{dy}{dt} = v_{y}$
 
 The second set of equations it to find the components of the veloctiy before it collides with the wall.
 
-$$
-\vec{v}_{i,\perp} = (\vec{v}_{i} \bullet \hat{n})\hat{n}
-$$
 
-$$
-\vec{v}_{i,\parallel} = \vec{v}_{i} - \vec{v}_{i,\perp}
-$$
+$\vec{v}_{i,\perp} = (\vec{v}_{i} \bullet \hat{n})\hat{n}$
+
+$\vec{v}_{i,\parallel} = \vec{v}_{i} - \vec{v}_{i,\perp}$
 
 The final set of equations is used to find the components of the velocity after the collision using the initial components.
 
-$$
-\vec{v}_{f,\perp} = -\vec{v}_{i,\perp}
-$$
 
-$$
-\vec{v}_{f,\parallel} = \vec{v}_{i,\parallel}
-$$
+$\vec{v}_{f,\perp} = -\vec{v}_{i,\perp}$
+
+$\vec{v}_{f,\parallel} = \vec{v}_{i,\parallel}$
 
 ## Specific Scenerios
-There are a few specific scenerios that will be tested in this problem. The first is to test the ball's trajectory due to a stadium table, and how changing the length of the sides, $\alpa$, change the ball's trajectory. The second scenerio the be tested is how an elliptical table will affect the trajectory of the billiard ball. If time permits a square table may also be tested. For all different tables, different initial conditions, such as velocity aand position will also be changed.
+There are a few specific scenerios that will be
+ tested in this problem. The first is to test the ball's trajectory due to a stadium table, and how changing the length of the sides, $\alpa$, change the ball's trajectory. The second scenerio the be tested is how an elliptical table will affect the trajectory of the billiard ball. If time permits a square table may also be tested. For all different tables, different initial conditions, such as velocity aand position will also be changed.
 
 ## Method
 Euler's method will be used to model the trajectory of the billiard ball on the different tables. The collisions will be modelled by moving along the path of the ball and when it is off the table the program will go back to the point on the table and use steps approximately 100 times smaller and find the location of the edge. Using the location it will then use the equations for the velocity's components and find the velocity after the condition. This will be done for a set amount of time, and will create a trajectory to be modelled.
