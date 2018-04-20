@@ -15,7 +15,3 @@ The first step is to use verion control. This helps by keeping steps and work or
 
 # Outline
 
-# Intro to Physics of The Billiard Problem
-The Billiard Problem relates to the concept of chaotic systems. This system is that of a ball that rolling on a frictionless table. The table can be of anyshape but for the sake of this project, two table shapes will be observed, stadium and elliptical. The balls on the table roll at a constant veloctiy in both the x and the y direction, the velocity being defined as the chagne in distance over a period time. The velocity is only changed when the ball collides with the walls of the table, this causes the ball to then reflect off the wall where the angle between the norm of the wall and the path of the ball both before and after collision is the smae. This collision in this problem is elastic, which means no energy is lost in the collision off the wall. Thus, the velocity parallel to the wall after the collision is same as the initial and the perpendicular velocity is the opposite a sthe initial perpendicular velocity. The purpose of this problem is to give a ball initial conditions and model the trajectory over time with respect to table shape.
-
-# Intro to Model
