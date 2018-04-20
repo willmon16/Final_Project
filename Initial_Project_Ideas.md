@@ -21,9 +21,8 @@ The first of three concepts that will be tested is the Lyapunov of stadium table
 
 ## Controlling Equations
 There are three sets of controlling equations. The first is the equations to describe the velocity of the ball between collisions with the walls. 
-$$
-\frac{dx}{dt} = v_{x} 
-$$
+
+$\frac{dx}{dt} = v_{x}$ 
 
 $$
 \frac{dy}{dt} = v_{y}
